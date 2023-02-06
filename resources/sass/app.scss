@@ -1,0 +1,299 @@
+// Fonts
+//@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+@import "style.min.css";
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+.bann-info {
+    margin-top: 2em;
+}
+
+.ban-top .inputLabel, .ban-bottom .inputLabel {
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+.bnr-left input[type="text"] {
+    width: 95%;
+    font-size: 14px;
+    padding: 6px 6px;
+    margin: 10px 0 12px 0;
+}
+.bnr-left select {
+    width: 95%;
+    font-size: 14px;
+    padding: 6px 6px;
+    margin: 10px 0 12px 0;
+}
+.bnr-left {
+    float: left;
+    width:50%;
+    position:relative;
+}
+.inputLabel {
+    display: block;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #191919;
+}
+.ban-top .inputLabel, .ban-bottom .inputLabel {
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+.date {
+
+    cursor: pointer;
+}
+.ban-top .inputLabel,.ban-bottom  .inputLabel {
+    display: block;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #191919;
+}
+.ban-top .inputLabel, .ban-bottom .inputLabel {
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+.bnr-right {
+    float: left;
+    width:50%;
+}
+.bnr-right input[type="text"] {
+    width: 98%;
+    color: #9E9E9E;
+    outline: none;
+    font-size: 14px;
+    padding: 10px 10px;
+    border: 1px solid #9E9E9E;
+    -webkit-appearance: none;
+    margin-top: 10px;
+}
+.bnr-right input[type="text"] {
+    width: 95%;
+    font-size: 14px;
+    padding: 6px 6px;
+}
+.search input[type="submit"] {
+    padding: 8px 25px!important;
+    font-size: 16px;
+}
+.search input[type="submit"]:hover {
+    background-color: #202020;
+}
+.search input[type="submit"]{
+    padding: 11px 25px!important;
+    font-size: 16px;
+    text-indent: 0;
+    color: #fff;
+    background-color: #2ad2c9;
+    border: 0;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    transition: all .2s;
+    background-repeat: no-repeat;
+    background-position: 96% center;
+    outline: none;
+    margin-top:1.5em;
+    text-transform: uppercase;
+    font-weight: 600
+}
+
+.search{
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.Book button {
+    padding: 8px 25px!important;
+    font-size: 16px;
+}
+.Book button:hover {
+    background-color: #202020;
+    color:#fff ;
+}
+.Book button{
+
+    font-size: 13px;
+    text-indent: 0;
+    color: #fff;
+    background-color: #2ad2c9;
+    border: 0;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    transition: all .2s;
+    background-repeat: no-repeat;
+    background-position: 96% center;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 600
+}
+.Book-disable button{
+    padding: 8px 25px!important;
+    font-size: 13px;
+    border: 0;
+    background-color: #cccccc;
+    color: #666666;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    transition: all .2s;
+    background-repeat: no-repeat;
+    background-position: 96% center;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 600
+}
+.Book{
+    margin: auto;
+    text-align: center;
+}
+.w3agile.footer {
+    background: #1d1c1c;
+}
+.w3agile_footer_grid h3{
+    font-size:1.7em;
+    color:#fff;
+    padding-bottom:.5em;
+    margin-bottom: 0.4em;
+    position:relative;
+}
+.w3agile_footer_grid h3:before{
+    content:'';
+    position:absolute;
+    bottom:0;
+    left:0;
+    background: #2ad2c9;
+    width: 25%;
+    height:2px;
+}
+.w3agile,.services,.about{
+    padding: 3.5em 2em;
+    background:#fff;
+}
+.w3agile.bus-midd {
+    padding:3em 0 0 0;
+}
+.w3agile.banner-bottom h6 {
+    margin-top: 1em;
+    font-weight:800;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    color:#020202;
+}
+.w3agile.banner-bottom ul li i {
+    font-size: 2em;
+    line-height: 70px;
+}
+
+.w3agile.brands,.services {
+    background: #ffe4c4;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 5px 3px;
+    line-height: 12px;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 8px;
+    line-height: 12px;
+    vertical-align: middle;
+}
+
+.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+    border: 1px solid #d4d1d1;
+}
+.table>caption+thead>tr:first-child>td, .table>caption+thead>tr:first-child>th, .table>colgroup+thead>tr:first-child>td, .table>colgroup+thead>tr:first-child>th, .table>thead:first-child>tr:first-child>td, .table>thead:first-child>tr:first-child>th {
+    border-top: 0;
+    text-align: center!important;
+    padding: 14px 0;
+}
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 0;
+}
+.table-bordered.agileinfo {
+    border: 1px solid #ddd;
+    text-align: center!important;
+}
+.table-bordered.agileinfo {
+    border: 1px solid #ddd;
+    text-align: center!important;
+}
+th.t-one {
+    text-align:center!important;
+}
+td.wthree {
+    font-size: 1em;
+}
+td.wthree i {
+    font-size: 1em;
+    margin-right: 0;
+}
+td.wthree {
+    font-size: 0.9em;
+}
+td.price span {
+    text-decoration: line-through;
+    color: #464646;
+    font-size: 18px;
+    padding: 0 0;
+    line-height: 3em;
+}
+td.price{
+    font-weight: 600;
+    color: #DF1E1C;
+    font-size: 22px;
+    margin-top: 64px;
+}
+
+td.price.us {
+    line-height: 35px;
+}
+td.price {
+    font-size: 18px;
+    margin-top: 64px;
+}
+.modal-content {
+    position: relative;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #999;
+    //border: 1px solid rgba(0,0,0,.2);
+    border-radius:0 !important;
+    outline: 0;
+    -webkit-box-shadow: 0 3px 9px rgba(0,0,0,.5);
+    box-shadow: 0 3px 9px rgba(0,0,0,.5);
+}
+.addTrip{
+    width: max-content;
+}
+
+.addTrip button:hover {
+    background-color: #202020;
+    color: #ffffff;
+}
+.addTrip button{
+    width:max-content;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    text-indent: 0;
+    color: #fff;
+    background-color: #2ad2c9;
+    border: 0;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    transition: all .2s;
+    background-repeat: no-repeat;
+    background-position: 96% center;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 600
+
+}
+
